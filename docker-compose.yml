@@ -16,12 +16,12 @@ services:
     restart: unless-stopped
 
   php:
-    build: ./running-tracker
+    build: .  
     container_name: running_php
     ports:
       - "8000:80"
     volumes:
-      - ./running-tracker/src:/var/www/html
+      - ./src:/var/www/html 
     depends_on:
       - db
     restart: unless-stopped
