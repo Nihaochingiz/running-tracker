@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/ваш-username/running-tracker.git
+git clone https://github.com/Nihaochingiz/running-tracker.git
 cd running-tracker
 docker-compose up -d --build
 
